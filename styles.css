@@ -1,0 +1,120 @@
+/* PAGE DIVIDERS */
+
+.topdiv{
+    width: 100%;
+    background-color: #233342;
+    box-shadow: 0px 0px 5px 0px rgba(231, 231, 231, 0.836);
+    
+}
+
+.herodiv{
+    width: 100%;
+    background-color:#233342;
+}
+
+.infodiv{
+    width: 100%;
+    background-color:#4b2b31;
+}
+
+
+/* ----- Nav bar styling  -----*/
+
+.navbar {
+    /*background: #193c6d;*/
+    background: #233342;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top:25px;
+    border-radius: 0;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  /* Padding for home links */
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 46px;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color:#ce8054;  
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 380;
+    padding-right: 10px;
+  }
+  
+  /* Home Link Styling */
+  
+  .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show > .nav-link {
+    color: #414852;
+  }
+  
+  /* Etc Link Styling */
+  .navbar-light .navbar-nav .nav-link {
+    color: #8d8c8a;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .active > .nav-link,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color:#b35340;
+    /*color: #029797;*/
+    /*color: #193c6d;*/
+    font-weight: bold;
+  }
+
+
+  /*HERO STYLING*/
+
+    .bg-leftpik{
+        background-image: url(/images/matts.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 500;
+    }
+
+    .limit{
+        overflow: hidden;
+    }
+
+    .limit img {
+        max-width: 350px; 
+        max-height: 350px;
+        padding-top: 5px;
+        margin: auto;    
+        display: block;
+    } 
+
+    .mats-bio{
+        padding-top: 80px;
+        color:#8d8c8a;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-bottom: 20px;
+        margin: auto;    
+        display: block;
+    }
+
+    .mats-bio a{
+        text-decoration: none;
+        color: #b35340;
+        font-size: 12px;
+    }
+    
+    .carousel .carousel-item {
+        height:600px;
+    }
+    
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
